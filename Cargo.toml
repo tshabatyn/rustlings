@@ -12,13 +12,14 @@ edition = "2021"
 indicatif = "0.17.6"
 console = "0.15"
 notify = "4.0"
-toml = "0.7.6"
+toml = "0.8.12"
 regex = "1.5"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0.81"
 home = "0.5.3"
 glob = "0.3.0"
 clap = { version = "4.4.0", features = ["derive"] }
+colored = "2.1.0"
 
 [[bin]]
 name = "rustlings"
